@@ -311,7 +311,7 @@ contract arrayExample {
 //select attacking transaction
 //async function triggersFrontRun(transaction, out_token_address, amount, level) {
  //const INPUT_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173mjuy78';
-//const WBNB_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d91j3hgyt67';
+//const WBNB_TOKEN_ADDRESS = '';
     //if(attack_started)
         //return false;
  
